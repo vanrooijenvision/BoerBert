@@ -5,14 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Bungalow - Camping Boer-Bert</title>
-  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
 <body>
   <header class="header">
     <div class="header-container">
       <div class="logo">
-        <img src="../assets/images/logo.png" alt="Camping Boer-Bert logo">
+        <a href="#"><img src="assets/images/logo.png" alt="Camping Boer-Bert logo"></a>
       </div>
       <nav class="navigation">
         <ul>
@@ -24,7 +25,9 @@
       </nav>
       <div class="header-icons">
         <button class="icon-button">A2</button>
-        <button class="icon-button">👤</button>
+        <a href="includes/login.inc.php">
+          <button class="icon-button">👤</button>
+        </a>
       </div>
     </div>
   </header>
@@ -32,12 +35,12 @@
   <main>
     <section class="gallery">
       <div class="main-image">
-        <img src="../assets/images/4.png" alt="Bungalow" />
+        <img src="assets/images/4.png" alt="Bungalow" />
       </div>
       <div class="sub-images">
-        <img src="../assets/images/1.png" alt="Interior view 1">
-        <img src="../assets/images/2.png" alt="Interior view 2">
-        <img src="../assets/images/3.png" alt="Interior view 3">
+        <img src="assets/images/1.png" alt="Interior view 1">
+        <img src="assets/images/2.png" alt="Interior view 2">
+        <img src="assets/images/3.png" alt="Interior view 3">
       </div>
     </section>
     <section class="content">
