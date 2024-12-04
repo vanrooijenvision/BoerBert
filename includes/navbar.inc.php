@@ -12,7 +12,7 @@
     <nav class="navbar">
       <!-- Logo Section -->
       <div class="navbar-logo">
-        <img src="../assets/images/logo.png" alt="Camping Boer Bert Logo">
+        <img src="assets/images/logo.png" alt="Camping Boer Bert Logo">
       </div>
       
       <!-- Navbar Links -->
