@@ -1,0 +1,59 @@
+body {
+  margin: 0;
+  font-family: 'Rye', sans-serif;
+}
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  align-items: center;
+  position: relative; /* Allows positioning of child elements */
+  background-color: #fff;
+  padding: 35px 20px;
+}
+
+/* Logo Section */
+.navbar-logo {
+  position: absolute; /* Remove the logo from the main flow */
+  left: 20px; /* Hug the left wall */
+}
+
+.navbar-logo img {
+  height: 140px;
+  padding-top: 100px; 
+}
+
+/* Navbar Menu */
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0 auto; /* Ensures the menu stays in the center */
+  padding: 0;
+}
+
+.navbar-menu li {
+  position: relative;
+}
+
+.navbar-menu a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.navbar-menu a:hover {
+  color: #555; /* Slight color change on hover */
+}
+
+/* Divider Between Items */
+.navbar-menu li:not(:last-child)::after {
+  content: '|';
+  position: absolute;
+  right: -10px;
+  color: #000;
+  font-size: 16px;
+  font-family: 'Rye', cursive; /* Apply Rye font to menu */
+}
